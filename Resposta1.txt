@@ -1,0 +1,7 @@
+Esse diagrama tem como objetivo detalhar a colaboração dos respectivos objetos em um determinado senário,
+sendo assim segue a explicação do entendimento: temos em sua estrutura; Camadas, Caixas representado objetos,
+linhas verticais tracejadas representando a vida do objeto, linhas continuas representando trocas e chamadas de
+mensagens entre objetos. No nosso diagrama identificamos as camadas view, DataCache e Service no Frontend da nossa
+aplicação e temos também o nossa Backend. notamos que a Camada View  esta solicitando através de mensagem que a
+Camada Service  chame o método “FindAsync()” que esta  no Backend da nossa aplicação. Depois disso em resposta,
+a Camada Service  chama o método “StorelnCache()” que esta na Camada DataCache  da nossa aplicação. 
