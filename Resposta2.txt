@@ -1,0 +1,8 @@
+Esse diagrama apresenta o comportamento de uma aplicação em resposta a solicitação de uma foto, ou melhor,
+de um arquivo. Entende-se que o usuário interagindo com o frontend da aplicação solicita um arquivo, então
+a Camada View chama o método “loadImageAssync(url)” que esta na Camada ImageCache, esta por sua vez chama o
+método “loadImageAssyncFromServer(url)” que se encontra no Backend da nossa aplicação onde Percebe-se que
+existem varias imagens! O diagrama mostra que o método “loadImageAssyncFromServer(url)” retornou duas imagens
+“storeInMemory(Bitmap)” e “storeInFileSystem(Bitmap)” que foram armazenadas na Camada ImageCache  da nossa
+aplicação quando logo em  seguida o método “loadImageAssync(url)” retorna para a Camada View a imagem solicitada
+pelo usuário.
