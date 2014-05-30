@@ -8,7 +8,14 @@ aplicação quando logo em  seguida o método “loadImageAssync(url)” retorna para a
 pelo usuário.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 José Edmário
 =======
 José Edmário F. Almeida.
+>>>>>>> ramificaÃ§Ã£o1
+=======
+José Edmário F. Almeida.
+=======
+José Edmário
+>>>>>>> aa0823f546fb2d5f9b7cb1eb161327f252326cb1
 >>>>>>> ramificaÃ§Ã£o1
