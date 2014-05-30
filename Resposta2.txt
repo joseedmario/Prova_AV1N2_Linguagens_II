@@ -7,4 +7,4 @@ existem varias imagens! O diagrama mostra que o método “loadImageAssyncFromServe
 aplicação quando logo em  seguida o método “loadImageAssync(url)” retorna para a Camada View a imagem solicitada
 pelo usuário.
 
-José Edmário
+José Edmário 
